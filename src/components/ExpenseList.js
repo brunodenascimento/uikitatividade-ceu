@@ -9,7 +9,7 @@ const ExpenseList = ({ setEditExpense }) => {
   return (
     <Container>
       <Typography variant="h4" gutterBottom>
-        Expense List
+        Lista
       </Typography>
       <List>
         {state.expenses.map(expense => (
