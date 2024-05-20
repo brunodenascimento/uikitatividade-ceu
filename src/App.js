@@ -11,7 +11,7 @@ const App = () => {
     <ExpenseProvider>
       <Container>
         <Typography variant="h2" align="center" gutterBottom>
-          Expense Tracker
+          Rastreador
         </Typography>
         <ExpenseForm editExpense={editExpense} setEditExpense={setEditExpense} />
         <ExpenseList setEditExpense={setEditExpense} />
