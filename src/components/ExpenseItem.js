@@ -20,8 +20,8 @@ const ExpenseItem = ({ expense, setEditExpense }) => {
       }
     >
       <ListItemText
-        primary={expense.title}
-        secondary={`$${expense.amount}`}
+        primary={expense.titulo}
+        secondary={`$${expense.quantidade}`}
       />
     </ListItem>
   );
